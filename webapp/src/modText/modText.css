@@ -1,0 +1,37 @@
+/* Main */
+#w_modText_text {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    color: #000;
+    background-color: #ddf;
+    text-align: left;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+#w_modText_text span {
+    padding: 2px 7px;
+    border-radius: 5px;
+}
+
+#w_modText_input {
+    width: calc(100% - 60px);
+    margin: 0 20px;
+    padding: 10px;
+    border: 0;
+    border-radius: 10px;
+    color: #000;
+    background-color: #dfd;
+    text-align: center;
+    font-size: 40px;
+}
+#w_modText_input:focus {
+    outline: none;
+    box-shadow: 0 0 3px 3px #bada55;
+}
+
+/* Statbox */
+#w_modText_statbox {
+    padding: 5px;
+}

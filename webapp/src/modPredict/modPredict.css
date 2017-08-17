@@ -1,0 +1,57 @@
+/* Statbox */
+#w_modPredict_statbox {
+    padding: 5px;
+}
+
+#modPredict_button {
+    width: 82px;
+    font-weight: bold;
+}
+
+#modPredict_npredicted {
+    width: 130px;
+}
+
+#modPredict_predictions {
+    margin-bottom: 5px;
+}
+
+.modPredict_right {
+    float: right;
+    padding: 2px;
+    text-align: center;
+    color: #000;
+}
+
+/* Overlay */
+#w_modPredict_overlay .dimension {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+#w_modPredict_overlay .name {
+    float: left;
+    width: 150px;
+    height: 16px;
+    line-height: 19px;
+}
+
+#w_modPredict_overlay .name span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#w_modPredict_overlay .progress_bar, #w_modPredict_overlay .progress_score {
+    height: 16px;
+    border-radius: 5px;
+}
+
+#w_modPredict_overlay .progress_bar {
+    float: left;
+    width: 400px;
+    width: calc(100% - 150px);
+}
+
+#w_modPredict_overlay .progress_score {
+    display: inline-block;
+}

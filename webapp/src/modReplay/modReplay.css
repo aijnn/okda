@@ -1,0 +1,25 @@
+/* statbox */
+#w_modReplay_statbox {
+    padding: 5px;
+}
+
+#modReplay_replay, #modReplay_input {
+    float: right;
+    padding: 2px;
+    border: 0;
+    margin: 0px 0px 5px 2px;
+    color: #000;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+}
+
+#modReplay_replay {
+    cursor: pointer;
+    width: 82px;
+}
+
+#modReplay_input {
+    width: 130px;
+    outline: none;
+}

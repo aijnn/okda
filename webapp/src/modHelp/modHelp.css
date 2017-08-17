@@ -1,0 +1,31 @@
+/* Overlay */
+#overlay_modHelp h3 {
+    margin-left: 2em;
+}
+
+#overlay_modHelp_inner {
+    width: 800px;
+    margin: 60px auto 10px auto;
+    font-size: 120%;
+}
+
+#overlay_modHelp_inner h1 {
+    text-align: center;
+}
+
+#overlay_modHelp_start {
+    width: 200px;
+    margin: 30px auto 0px auto;
+    border-radius: 15px;
+    padding: 5px;
+    color: #000;
+    font-size: 140%;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* Statbox */
+#w_modHelp_statbox {
+    padding: 5px;
+}

@@ -1,0 +1,230 @@
+html, body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    color: #fff;
+    background-color: #000;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 12px;
+}
+
+.nonmono {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section {
+    position: fixed;
+    top: 0;
+    height: 100%;
+}
+
+#main {
+    left: 0;
+    width: 100%;
+    text-align: center;
+    overflow-y: scroll;
+}
+
+#content {
+    margin-right: 400px;
+    transition: margin 0.5s;
+    -webkit-transition: margin 0.5s;
+}
+
+.current {
+    background-color: #bada55;
+}
+
+#rside {
+    right: 0;
+    width: 400px;
+    height: 100%;
+    border-left: 2px solid #888;
+    background-color: #111;
+    transition: right 0.5s;
+    -webkit-transition: right 0.5s;
+}
+
+#rsidetop {
+    height: 287px;
+}
+
+#rsidemodules {
+    width: calc(100% + 20px);
+    height: calc(100% - 287px);
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.toggle {
+    position: absolute;
+    top: -2px;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #888;
+    background-color: #333;
+    text-align: center;
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#rtoggle {
+    left: -24px;
+    border-bottom-left-radius: 8px;
+}
+
+.statbox {
+    width: 400px;
+    border-bottom: 2px solid #888;
+    clear: both;
+}
+
+.statboxHeader, .statboxInfo {
+    padding: 1px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.statboxHeader {
+    width: 98px;
+    border-bottom-right-radius: 15px;
+    background-color: #888;
+}
+
+.statboxFloating {
+    float: left;
+    margin-right: 5px;
+}
+
+.statboxInfo {
+    float: right;
+    width: 98px;
+    border-bottom-left-radius: 15px;
+}
+
+.statbox .active {
+    background-color: #88f;
+}
+
+.statbox .inactive {
+    background-color: #888;
+}
+
+#w_status, #w_log {
+    padding: 3px;
+}
+
+#status {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#log {
+    height: 200px;
+    overflow-y: scroll;
+}
+
+#progress .description, #progress .item {
+    float: left;
+    padding: 1px;
+    text-align: center;
+}
+
+#progress .description {
+    width: 98px;
+    background-color: #888;
+    font-weight: bold;
+}
+
+#progress .item {
+    width: 96px;
+    border-right: 2px solid #888;
+}
+
+.statbox button {
+    float: left;
+    width: 78px;
+    margin: 2px 0px 2px 2px;
+    border: 2px solid #555;
+    padding: 2px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-right: 20px; /* hide scrollbar */
+    overflow-x: hidden;
+    overflow-y: auto;
+    background: rgba(0,0,0,1);
+}
+
+.overlay table {
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+.overlay table, .overlay tr, .overlay td {
+    border: 1px solid #222;
+    text-align: center;
+    valign: middle;
+}
+
+.overlay td {
+    padding: 4px;
+}
+
+.overlay .mark {
+    color: #f00;
+    font-weight: bold;
+}
+
+.overlay .posval {color: #ffff00;}
+.overlay .bigval {color: #ffa500;}
+.overlayInner {padding: 10px;}
+
+.hideOverlays {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 30px;
+    height: 30px;
+    padding: 0 0 2px 2px;
+    border-bottom-left-radius: 66%;
+    color: #fff;
+    background-color: #d9534f;
+    text-align: center;
+    line-height: 28px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.success {background-color: #5cb85c;}
+.message {background-color: #31b0d5;}
+.warning {background-color: #f0ad4e;}
+.failure {background-color: #d9534f;}
+.offline {background-color: #888888;}
+.tsuccess {color: #5cb85c;}
+.tmessage {color: #31b0d5;}
+.twarning {color: #f0ad4e;}
+.tfailure {color: #d9534f;}
+.toffline {color: #888888;}
+.clear {clear: both;}
+.center {text-align: center;}
+.pointer {cursor: pointer;}
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}

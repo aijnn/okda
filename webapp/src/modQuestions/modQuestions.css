@@ -1,0 +1,131 @@
+/* Main */
+#modQuestions_main {
+    margin-top: 100px;
+    text-align: center;
+}
+
+#modQuestions_main .questiongroup {
+    margin-bottom: 30px;
+}
+
+#modQuestions_main .intro {
+    width: 770px;
+    margin: 6px auto;
+    font-size: 120%;
+    text-align: left;
+}
+
+#modQuestions_main .question {
+    width: 800px;
+    margin: 6px auto;
+}
+
+#modQuestions_main .elem {
+    float: left;
+    height: 30px;
+    margin-left: 3px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+#modQuestions_main .title {
+    width: 110px;
+}
+
+#modQuestions_main .desc, #modQuestions_main .ldesc {
+    padding-right: 10px;
+    background-color: rgba(31,176,213,0.7);
+    font-weight: normal;
+    text-align: right;
+}
+
+#modQuestions_main .desc {
+    width: 681px;
+}
+
+#modQuestions_main .item {
+    width: 130px;
+}
+
+#modQuestions_main .yn {
+    width: 50px;
+}
+
+#modQuestions_main input.item {
+    padding: 0;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+
+#modQuestions_main input.item:focus {
+    box-shadow: 0 0 3px 3px #bada55;
+}
+
+#modQuestions_main .first {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+#modQuestions_main .last {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+#modQuestions_main .smargin {
+    margin-right: 30px;
+}
+
+#modQuestions_main .bmargin {
+    margin-right: 40px;
+}
+
+/* Statbox */
+#w_modQuestions_statbox {
+    padding: 5px;
+}
+
+#w_modQuestions_statbox .scalesum {
+    width: 100%;
+    border-bottom: 1px dashed #333;
+    margin-bottom: 5px;
+}
+
+#w_modQuestions_statbox .dimension {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+#w_modQuestions_statbox .name {
+    float: left;
+    width: 150px;
+    height: 16px;
+    line-height: 19px;
+}
+
+#w_modQuestions_statbox .name span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#w_modQuestions_statbox .progress_bar, #w_modQuestions_statbox .progress_score {
+    height: 16px;
+    border-radius: 5px;
+}
+
+#w_modQuestions_statbox .progress_bar {
+    float: right;
+    width: 240px;
+}
+
+#w_modQuestions_statbox .progress_score {
+    display: inline-block;
+}
+
+/* Overlay */
+td.modQuestions_content {
+    text-align: left;
+}
+

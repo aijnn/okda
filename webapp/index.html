@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>okda</title>
+        <meta name="description" content="Open Keystroke Dynamics Analyzer">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+        <link rel="stylesheet" type="text/css" href="src/okda.css">
+        <script src="src/config.js"></script>
+        <script src="src/okda.js"></script>
+    </head>
+    <body>
+        <div id="main" class="section">
+            <div id="content"></div>
+        </div>
+        <div id="rside" class="section sidebar">
+            <div id="rsidetop">
+                <div id="rtoggle" class="toggle pointer" onclick="toggleRside();">&gt;</div>
+                <div id="status" class="statbox noselect">
+                    <div id="w_status" class="warning"></div>
+                </div>
+                <div id="log" class="statbox">
+                    <div id="w_log"></div>
+                </div>
+                <div id="progress" class="statbox">
+                    <div class="description noselect">PROGRESS</div>
+                    <div id="w_progress"></div>
+                    <div class="clear"></div>
+                </div>
+                <div id="actions" class="statbox">
+                    <div class="statboxHeader noselect">ACTIONS</div>
+                    <button class="success" onclick="start();">Start</button>
+                    <button class="offline" onclick="stop();">Stop</button>
+                    <button class="offline" onclick="reset();">Reset</button>
+                    <button class="offline" onclick="save();">Save</button>
+                    <button class="warning" onclick="clearLog();">Clear</button>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div id="rsidemodules"></div>
+        </div>
+        <div id="overlay"></div>
+        <script>load();</script>
+    </body>
+</html>
