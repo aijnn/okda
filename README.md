@@ -50,7 +50,7 @@ can be modified by editing `webapp/src/$MODULE_NAME/$MODULE_NAME.js`.
 ## Contributing
 
 This software was developed for a specific research project and there are no
-plans to further develop it . I will however try to fix any reported issues and
+plans to further develop it. I will however try to fix any reported issues and
 accept pull request for bug fixes or added functionality.
 
 ## License
